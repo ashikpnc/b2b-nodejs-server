@@ -10,7 +10,7 @@
 	"scripts": {
 		"lint": "eslint . --fix --max-warnings=0",
 		"format": "prettier . --write",
-		"start": "nodemon --exec babel-node index.js"
+		"start": "node --exec babel-node index.js"
 	},
 	"license": "ISC",
 	"dependencies": {
